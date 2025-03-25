@@ -1,0 +1,42 @@
+/* Google Translate Styles */
+.google-translate-container {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Hide Google Translate attribution */
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 0 !important;
+}
+
+/* Hide Google Translate top bar */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/* Fix for Google Translate shifting the body */
+.skiptranslate {
+  display: none !important;
+}
+
+/* Smooth scrolling for page transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent content jump during page transitions */
+body {
+  overflow-x: hidden;
+}
+
